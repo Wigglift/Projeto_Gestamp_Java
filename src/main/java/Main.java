@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-
+        //jpackage --type exe --name ProjetoGestamp --input . --main-jar .\ProjetoGestamp-1.0-SNAPSHOT.jar --win-console
+        //Wix tool set v3
         S7Client plc = null;
         String csvPath = "f:/testeComm/teste.csv";
         String tmpPath = "f:/testeComm/teste.tmp";
